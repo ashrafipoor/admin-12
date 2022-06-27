@@ -1,8 +1,10 @@
+import TimeSheet from "./TimeSheet"
+
 function App() {
 
   return (
     <div >
-
+      <TimeSheet/>
     </div>
   )
 }
