@@ -1,17 +1,19 @@
 
-
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 function App() {
 
   return (
-    <main className="flex">
+    <main className="flex" >
       <aside className="w-1/6 bg-slate-200 h-screen">
-      </aside>
 
+      </aside>
       <section className="w-5/6 bg-orange-300 h-screen">
-        <header></header>
-        <section></section>
-        <footer></footer>
+      <Header/>
+      <section></section>
+      <Footer/>
       </section>
+     
     </main>
   )
 }
