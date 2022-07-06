@@ -3,8 +3,16 @@
 function App() {
 
   return (
-    <div >
-    </div>
+    <main className="flex">
+      <aside className="w-1/6 bg-slate-200 h-screen">
+      </aside>
+
+      <section className="w-5/6 bg-orange-300 h-screen">
+        <header></header>
+        <section></section>
+        <footer></footer>
+      </section>
+    </main>
   )
 }
 
