@@ -1,7 +1,7 @@
 function Content() {
 
     return (
-      <div></div>
+      <div className="bg-red-500 h-screen w-full "></div>
     )
   }
   

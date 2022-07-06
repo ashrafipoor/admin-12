@@ -1,4 +1,4 @@
-import Content from './Content/Content.jsx'
+import Content from './Components/Content/Content.jsx'
 
 function App() {
 
@@ -8,8 +8,12 @@ function App() {
       </aside>
 
       <section className="w-5/6 bg-orange-300 h-screen">
+        
         <header></header>
-        <section></section>
+        <section>
+          <Content/>
+        </section>
+
         <footer></footer>
       </section>
     </main>
