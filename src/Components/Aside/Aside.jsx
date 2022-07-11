@@ -6,22 +6,10 @@ const Aside = () => {
   return (
     <div className="bg-gray-700 pl-4 pt-4 pb-4 pr-4">
       <Logo className="flex-col" />
-      <div>
-        <a
-          href="#"
-          className="flex-col pl-4 pb-2 pt-2 border-b border-gray-500 hover:text-white text-xl duration-200 text-slate-300"
-        >
-          AdminLTE3
-        </a>
-      </div>
+  
       <Profile className='flex' />
       <div>
-        <a
-          href="#"
-          className="flex pl-4 pb-2 pt-2 border-b border-gray-500 hover:text-white duration-200 text-slate-300"
-        >
-          HamidReza Delshad
-        </a>
+        
         <input className="mt-4 rounded-md w-full pt-2 pb-2 pl-2 bg-gray-600" placeholder="Search"/>
         <button className="block bg-blue-600 mt-4 w-full pt-2 pb-2 text-white rounded-md">Dashboard</button>
       </div>
